@@ -1,0 +1,31 @@
+body{
+    font-family: 'Fjalla One', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+    margin-top: 50px;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    background-image: linear-gradient(rgb(185, 81, 81), rgb(3, 3, 3));
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: large;
+}
+.h-color{
+    color: rgb(252, 164, 0);
+}
+.f-bold{
+    font-size: xx-large;
+}
