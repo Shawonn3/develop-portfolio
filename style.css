@@ -4,8 +4,9 @@ font-family: 'Inter', sans-serif;
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -26,6 +27,34 @@ section{
 .h-color{
     color: rgb(252, 164, 0);
 }
+.comics{
+    background-image: url();
+}
 .f-bold{
     font-size: xx-large;
+}
+.mar{
+    background-color: red;
+    color: white;
+    padding: 6px 20px;
+}
+.clr{
+    color: rgb(125, 10, 0);
+}
+.hero{
+    width: 40%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 50px rebeccapurple;
+}
+#cap-color{
+    border-left: 6px solid rgb(0, 149, 255);
+}
+#thor-color{
+    border-left: 6px solid rgb(229, 255, 0);
+}
+footer p{
+    text-align: center;
 }
